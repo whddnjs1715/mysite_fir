@@ -10,7 +10,6 @@ export default function Layout({children}: LayoutProps) {
     return (
         <>
             <Header />
-            <h1>Layout 입니다.</h1>
             <div>{children}</div>
             <Footer/>
         </>
