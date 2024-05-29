@@ -35,7 +35,7 @@ export async function fetchTodos() {
                 is_done: doc.data()["is_done"],
                 created_at: doc.data()["created_at"].toDate().toLocaleTimeString('ko'),
             }
-            
+
             fetchedTodos.push(aTodo)
         })
         return fetchedTodos
